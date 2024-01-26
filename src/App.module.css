@@ -1,0 +1,31 @@
+.app {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+.header {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 24px;
+  color: #333;
+  background-color: #eee; /* ou qualquer outra cor que deseje para o cabeçalho */
+}
+
+@media (max-width: 768px) {
+  .app {
+    margin: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app {
+    margin: 10px;
+    padding: 10px;
+  }
+}
